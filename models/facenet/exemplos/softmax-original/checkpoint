@@ -1,0 +1,4 @@
+model_checkpoint_path: "D:/Anaconda3/Restos/models/facenet/feret/20180922-120745\\model-20180922-120745.ckpt-10000"
+all_model_checkpoint_paths: "D:/Anaconda3/Restos/models/facenet/feret/20180922-120745\\model-20180922-120745.ckpt-8000"
+all_model_checkpoint_paths: "D:/Anaconda3/Restos/models/facenet/feret/20180922-120745\\model-20180922-120745.ckpt-9000"
+all_model_checkpoint_paths: "D:/Anaconda3/Restos/models/facenet/feret/20180922-120745\\model-20180922-120745.ckpt-10000"

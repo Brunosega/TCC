@@ -1,0 +1,4 @@
+model_checkpoint_path: "D:/Anaconda3/Restos/models/facenet/triplet/feret/20181001-024104\\model-20181001-024104.ckpt-10015"
+all_model_checkpoint_paths: "D:/Anaconda3/Restos/models/facenet/triplet/feret/20181001-024104\\model-20181001-024104.ckpt-8015"
+all_model_checkpoint_paths: "D:/Anaconda3/Restos/models/facenet/triplet/feret/20181001-024104\\model-20181001-024104.ckpt-9015"
+all_model_checkpoint_paths: "D:/Anaconda3/Restos/models/facenet/triplet/feret/20181001-024104\\model-20181001-024104.ckpt-10015"
