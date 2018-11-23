@@ -1,0 +1,101 @@
+cuda v9.0
+cudnn v7.0.4
+%validate
+%tripletloss
+%originais
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/att/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/att/" --data_dir "D:/Matlab/TCC/Originais/att_faces_160/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6 --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/yale/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/yale/" --data_dir "D:/Matlab/TCC/Originais/Yale160/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 32 --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/feret/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/feret/" --data_dir "D:/Matlab/TCC/Originais/feret_frontal/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+%rotate
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/att/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/att/" --data_dir "D:/Matlab/TCC/Rotate/att_faces_160/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/yale/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/yale/" --data_dir "D:/Matlab/TCC/Rotate/Yale160/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/feret/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/feret/" --data_dir "D:/Matlab/TCC/Rotate/feret_frontal/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+%luz
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/att/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/att/" --data_dir "D:/Matlab/TCC/Luz/att_faces_160/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/yale/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/yale/" --data_dir "D:/Matlab/TCC/Luz/Yale160/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/feret/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/feret/" --data_dir "D:/Matlab/TCC/Luz/feret_frontal/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+%terminou aqui
+%mediana
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/att/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/att/" --data_dir "D:/Matlab/TCC/Mediana/att_faces_160/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/yale/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/yale/" --data_dir "D:/Matlab/TCC/Mediana/Yale160/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/feret/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/feret/" --data_dir "D:/Matlab/TCC/Mediana/feret_frontal/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+%salt_pepper
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/att/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/att/" --data_dir "D:/Matlab/TCC/Salt_Pepper/att_faces_160/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/yale/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/yale/" --data_dir "D:/Matlab/TCC/Salt_Pepper/Yale160/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+python facenet/src/train_tripletloss.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/triplet/feret/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/triplet/feret/" --data_dir "D:/Matlab/TCC/Salt_Pepper/feret_frontal/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAGRAD --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 30 --people_per_batch 30 --images_per_person 6  --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+%%Luz = ERRO  [3][362/1000]    Time 0.387      Loss 34.414     RegLoss 34.414
+2018-09-23 18:27:08.149417: E C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\stream_executor\cuda\cuda_event.cc:49] Error polling for event status: failed to query event: CUDA_ERROR_LAUNCH_FAILED
+
+%%Tentativa 1 - menor batch_size, mesmo n de steps*batch - funcionou - talvez nao mesmo resultado - diminuiu o total loss por ter mais steps
+
+python facenet/src/train_softmax.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/yale/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/yale/" --data_dir "D:/Matlab/TCC/Salt_Pepper/Yale160/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAM --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 16 --epoch_size 2000 --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+%%Tentativa 2 - menor batch_size, mesmo n de steps==steps - talvez nao mesmo resultado - mesmo total loss 
+
+python facenet/src/train_softmax.py --logs_base_dir "D:/Anaconda3/Restos/results/TCC/logs/facenet/yale/" --models_base_dir "D:/Anaconda3/Restos/models/facenet/yale/" --data_dir "D:/Matlab/TCC/Salt_Pepper/Yale160/" --image_size 160 --model_def models.inception_resnet_v1 --optimizer ADAM --learning_rate 0.01 --max_nrof_epochs 10  --weight_decay 5e-4 --embedding_size 512 --batch_size 16 --lfw_dir "D:/Anaconda3/Restos/datasets/lfw/lfw_mtcnnpy_160" --lfw_pairs "D:/Anaconda3/Restos/facenet/data/pairs.txt"
+
+tensorboard --logdir="D:\Anaconda3\Restos\results\TCC\logs\facenet" --host=127.0.0.1
+
+%%1os Testes YALE%%
+%LR = 0.01
+python facenet/src/comparePrint.py D:\Anaconda3\Restos\models\facenet\YALE\20180920-190657 D:\Matlab\TCC\Originais\Yale160 > results/TCC/YALE_YALE.csv
+python facenet/src/comparePrint.py D:\Anaconda3\Restos\models\facenet\YALE\20180920-190657 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/YALE_AT T.csv
+%LR = 0.05
+python facenet/src/comparePrint.py D:\Anaconda3\Restos\models\facenet\YALE\20180920-224604 D:\Matlab\TCC\Originais\Yale160 > results/TCC/YALE_YALE05.csv
+python facenet/src/comparePrint.py D:\Anaconda3\Restos\models\facenet\YALE\20180920-224604 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/YALE_ATT05.csv
+
+
+%%1os Testes ATT%%
+%LR = 0.01
+python facenet/src/comparePrint.py D:\Anaconda3\Restos\models\facenet\att\20180920-200747 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/ATT_ATT.csv
+python facenet/src/comparePrint.py D:\Anaconda3\Restos\models\facenet\att\20180920-200747 D:\Matlab\TCC\Originais\Yale160 > results/TCC/ATT_YALE.csv
+
+%%1os Testes FERET%%
+%LR = 0.01
+python facenet/src/comparePrint.py D:\Anaconda3\Restos\models\facenet\feret\20180920-214757 D:\Matlab\TCC\Originais\Yale160 > results/TCC/FERET_YALE.csv
+
+
+%TESTES
+%%SOFTMAX
+%%%COMBINADAS
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20181015-121546 D:\Matlab\TCC\Originais\ATT_faces_160 > results/TCC/testes/softmax/Combinadas/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\att\20181015-121546 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Combinadas/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20181015-121546 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Combinadas/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20181015-141453 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Combinadas/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20181015-141453 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Combinadas/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20181015-141453 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Combinadas/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20181015-152836 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Combinadas/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20181015-152836 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Combinadas/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20181015-152836 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Combinadas/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181016-155344 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Combinadas/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181016-155344 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Combinadas/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181016-155344 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Combinadas/ALL_YALE.csv

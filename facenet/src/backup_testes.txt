@@ -1,0 +1,368 @@
+cuda v9.0
+cudnn v7.0.4
+%TESTES
+%%SOFTMAX
+%%%ORIGINAIS
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180921-211737 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Originais/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180921-211737 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Originais/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180921-211737 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Originais/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-120745 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Originais/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-120745 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Originais/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-120745 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Originais/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180922-105857 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Originais/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180922-105857 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Originais/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180922-105857 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Originais/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-115349 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Originais/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-115349 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Originais/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-115349 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Originais/ALL_YALE.csv
+
+
+%%%LUZ
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180926-062244 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Luz/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180926-062244 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Luz/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180926-062244 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Luz/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-141708 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Luz/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-141708 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Luz/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-141708 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Luz/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180924-051313 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Luz/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180924-051313 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Luz/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180924-051313 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Luz/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-200037 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Luz/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-200037 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Luz/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-200037 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Luz/ALL_YALE.csv
+
+
+%%%ROTATE
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180926-004727 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Rotate/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180926-004727 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Rotate/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180926-004727 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Rotate/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-225735 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Rotate/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-225735 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Rotate/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-225735 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Rotate/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180923-020737 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Rotate/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180923-020737 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Rotate/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180923-020737 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Rotate/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-133058 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Rotate/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-133058 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Rotate/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-133058 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Rotate/ALL_YALE.csv
+
+
+%%%MEDIANA
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180926-100720 D:\Matlab\TCC\Originais\ATT_faces_160 > results/TCC/testes/softmax/Mediana/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180926-100720 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Mediana/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180926-100720 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Mediana/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-191106 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Mediana/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-191106 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Mediana/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-191106 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Mediana/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180923-134830 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Mediana/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180923-134830 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Mediana/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180923-134830 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Mediana/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-160408 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Mediana/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-160408 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Mediana/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-160408 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Mediana/ALL_YALE.csv
+
+
+%%%SALT_PEPPER
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180926-090045 D:\Matlab\TCC\Originais\ATT_faces_160 > results/TCC/testes/softmax/Salt_Pepper/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180926-090045 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Salt_Pepper/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20180926-090045 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Salt_Pepper/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-161853 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Salt_Pepper/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-161853 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Salt_Pepper/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20180922-161853 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Salt_Pepper/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180924-000443 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Salt_Pepper/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180924-000443 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Salt_Pepper/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20180924-000443 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Salt_Pepper/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-144526 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Salt_Pepper/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-144526 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Salt_Pepper/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181010-144526 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Salt_Pepper/ALL_YALE.csv
+
+
+%%%COMBINADAS
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20181015-121546 D:\Matlab\TCC\Originais\ATT_faces_160 > results/TCC/testes/softmax/Combinadas/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\att\20181015-121546 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Combinadas/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\att\20181015-121546 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Combinadas/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20181015-141453 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Combinadas/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20181015-141453 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Combinadas/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\feret\20181015-141453 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Combinadas/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20181015-152836 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Combinadas/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20181015-152836 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Combinadas/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\yale\20181015-152836 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Combinadas/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181016-155344 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/softmax/Combinadas/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181016-155344 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/softmax/Combinadas/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\softmax\All\20181016-155344 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/softmax/Combinadas/ALL_YALE.csv
+
+
+
+
+
+
+
+%%TRIPLETLOSS
+%%%ORIGINAIS
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181001-013459 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Originais/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181001-013459 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Originais/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181001-013459 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Originais/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181001-024104 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Originais/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181001-024104 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Originais/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181001-024104 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Originais/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181005-185827 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Originais/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181005-185827 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Originais/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181005-185827 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Originais/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-012523 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Originais/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-012523 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Originais/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-012523 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Originais/ALL_YALE.csv
+
+
+%%%LUZ
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181001-064202 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Luz/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181001-064202 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Luz/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181001-064202 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Luz/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181001-075118 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Luz/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181001-075118 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Luz/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181001-075118 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Luz/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181009-012513 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Luz/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181009-012513 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Luz/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181009-012513 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Luz/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-061555 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Luz/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-061555 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Luz/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-061555 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Luz/ALL_YALE.csv
+
+
+%%%ROTATE
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181001-042014 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Rotate/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181001-042014 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Rotate/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181001-042014 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Rotate/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181001-053043 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Rotate/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181001-053043 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Rotate/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181001-053043 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Rotate/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181017-031201 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Rotate/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181017-031201 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Rotate/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181017-031201 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Rotate/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-024627 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Rotate/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-024627 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Rotate/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-024627 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Rotate/ALL_YALE.csv
+
+
+%%%MEDIANA
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181004-071114 D:\Matlab\TCC\Originais\ATT_faces_160 > results/TCC/testes/triplet/Mediana/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181004-071114 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Mediana/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181004-071114 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Mediana/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181004-081708 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Mediana/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181004-081708 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Mediana/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181004-081708 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Mediana/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181017-015239 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Mediana/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181017-015239 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Mediana/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181017-015239 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Mediana/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-050535 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Mediana/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-050535 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Mediana/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-050535 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Mediana/ALL_YALE.csv
+
+
+%%%SALT_PEPPER
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181004-092914 D:\Matlab\TCC\Originais\ATT_faces_160 > results/TCC/testes/triplet/Salt_Pepper/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181004-092914 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Salt_Pepper/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181004-092914 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Salt_Pepper/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181004-103407 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Salt_Pepper/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181004-103407 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Salt_Pepper/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181004-103407 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Salt_Pepper/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181017-043614 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Salt_Pepper/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181017-043614 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Salt_Pepper/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181017-043614 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Salt_Pepper/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-035359 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Salt_Pepper/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-035359 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Salt_Pepper/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181010-035359 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Salt_Pepper/ALL_YALE.csv
+
+
+%%%COMBINADAS
+%%%%ATT
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181016-065608 D:\Matlab\TCC\Originais\ATT_faces_160 > results/TCC/testes/triplet/Combinadas/ATT_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181016-065608 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Combinadas/ATT_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\att\20181016-065608 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Combinadas/ATT_YALE.csv
+
+%%%%FERET
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181016-080120 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Combinadas/FERET_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181016-080120 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Combinadas/FERET_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\feret\20181016-080120 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Combinadas/FERET_YALE.csv
+
+%%%%YALE
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181017-053705 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Combinadas/YALE_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181017-053705 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Combinadas/YALE_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\yale\20181017-053705 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Combinadas/YALE_YALE.csv
+
+%%%%ALL
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181016-165648 D:\Matlab\TCC\Originais\att_faces_160 > results/TCC/testes/triplet/Combinadas/ALL_ATT.csv
+
+python facenet/src/compareTCCnoPrint.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181016-165648 D:\Matlab\TCC\Originais\feret_frontal > results/TCC/testes/triplet/Combinadas/ALL_FERET.csv
+
+python facenet/src/compareTCC.py D:\Anaconda3\Restos\models\facenet\triplet\All\20181016-165648 D:\Matlab\TCC\Originais\Yale160 > results/TCC/testes/triplet/Combinadas/ALL_YALE.csv
